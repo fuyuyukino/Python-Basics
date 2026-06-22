@@ -5,7 +5,7 @@ user = {
 }
 
 #Set number attempts to 3
-attempts_number = 3
+attempts_number = 5
 attempts = 0
 
 #Input username & password
