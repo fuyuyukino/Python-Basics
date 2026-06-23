@@ -1,3 +1,9 @@
+'''
+Conditional using if, elif, and else command
+in Python. Conditionals can use operations like
+== (Equal), != (Not Equal), and another operations
+'''
+
 #Define the condition of x and y
 x = float(input("What's X? "))
 y = float(input("What's Y? "))  

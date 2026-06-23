@@ -1,18 +1,25 @@
-#Basic print
+'''
+Basic of Python syntax including print(), variable,
+data types, strings, and case methods
+'''
+
+# Basic print using print() syntax that can prints txt, integer, and real number
 print("Hello World!")
 print("I am", 18 , "years old")
 
 
 
-#Variable
+#=== Variable using print command and storing data types ===
+#Storing Integers
 x = 1
 y = 2
 print(x+y)
 
+#Storing Strings
 name = "David"
 print(name)
 
-#Global Variable
+#Global Variable with variabke in global area
 x = "Books"
 
 def hobby():
@@ -20,6 +27,7 @@ def hobby():
     
 hobby()
 
+#Global Variable with variable inside the function
 def lecture():
     global x
     x = "Mechanical Statistic"
@@ -30,7 +38,7 @@ print("Now, I will have lecture about " + x)
     
 
 
-#Data Type (Not completed though)
+#=== List of data types that can be printed ===
 r = {"Hello" : "John"}
 s = {3, 4, 5}
 t = 1j
@@ -62,7 +70,8 @@ print(complex(x))
 
 
 
-#String Array (Print character inside string)
+#=== String Array (Print character inside string) ===
+#String in Array
 a = "Hello, World!"
 print(a[1])
 
@@ -95,7 +104,9 @@ print(b[ :5])       #Slice start to n
 b = "Hello, World!"
 print(b[2: ])       #Slice n to end
 
-#Case
+
+
+#=== Case that used to change case of characters ===
 a = "Hello, World!"
 print(a.upper())                #Uppercase
 
